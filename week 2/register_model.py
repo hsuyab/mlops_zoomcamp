@@ -75,7 +75,7 @@ def run(data_path, log_top):
     # register the best model
     mlflow.register_model(
         model_uri=model_uri,
-        registered_model_name="random-forest-best-model"
+        name="random-forest-best-model"
     )
 
 
